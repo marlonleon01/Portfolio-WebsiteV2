@@ -8,7 +8,7 @@ import {Footer} from "./Components/Footer/Footer"
 
 export function App() {
     return (
-        <div>
+        <>
             <Navbar />
             <Header />
             <About />
@@ -16,6 +16,6 @@ export function App() {
             <Portfolio />
             <Contact />
             <Footer />
-        </div>
+        </>
     )
 }
