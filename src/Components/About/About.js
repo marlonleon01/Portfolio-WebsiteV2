@@ -2,6 +2,6 @@ import "./About.css"
 
 export function About() {
     return (
-        <div>About</div>
+        <section id="about">About</section>
     )
 }
