@@ -12,7 +12,7 @@ export function Navbar() {
         <nav className="navbar">
             {/* Add real website links */}
             <div>
-                <a href="" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/marlon-leon/" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faLinkedin} className="brand-icons"></FontAwesomeIcon>
                 </a>
                 <a href="https://github.com/marlonleon01" target="_blank" rel="noopener noreferrer">
