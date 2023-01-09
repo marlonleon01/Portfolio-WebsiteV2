@@ -10,8 +10,33 @@ header {
     position: relative;
 }
 
+.container > h5, .container > h1 {
+    margin: 0;
+}
+
 /* Me Main Image */
 
 .main-img {
-    
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 2rem;
+}
+
+/* Media Queries (Tablets) */
+
+@media screen and (max-width: 1024px) {
+    header {
+        height: 68vh;
+    }
+}
+
+/* Media Queries (Phones) */
+
+@media screen and (max-width: 550px) {
+    header {
+        height: 100vh;
+    }
 }
