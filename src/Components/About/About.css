@@ -4,6 +4,10 @@
     gap: 15%;
 }
 
+#about {
+    padding-top: 4rem;
+}
+
 #about >h2 {
     font-size: 2rem;
     margin-top: 0.2rem;
@@ -108,7 +112,7 @@
     }
 
     .about-cards {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 1rem;
     }
 
