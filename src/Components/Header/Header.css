@@ -27,6 +27,10 @@ header {
     margin-top: 2rem;
 }
 
+.main-img > img {
+    border-radius: 1rem;
+}
+
 /* Media Queries (Tablets) */
 
 @media screen and (max-width: 1024px) {
