@@ -18,14 +18,31 @@ header {
     font-size: 1rem;
 }
 
+/* Img Effect */
+
+.img-container {
+    display: grid;
+    place-items: center;
+    margin: 2rem;
+}
+
+.img-group, .img {
+    aspect-ratio: 5/7;
+}
+
+.img-group, .big-img {
+    width: 26rem;
+}
+
+.img {
+    aspect-ratio: 5/7;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+}
+
 .big-img {
     width: 26rem;
-    aspect-ratio: 5/7;
-    margin-top: 2rem;
-    /* position: absolute;
-    left: 50%;
-    transform: translateX(-50%); */
-    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
 }
 
 /* .big-img > img {
@@ -35,9 +52,15 @@ header {
 
 .small-img {
     width: 10rem;
-    aspect-ratio: 5/7;
-    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
 }
+
+.big-img:nth-child(1) {
+    background-color: rgba(255, 255, 255, 1);
+    transform: translateX(-5%);
+}
+
+/* Effect ends here */
 
 /* Media Queries (Phones) */
 
@@ -46,7 +69,27 @@ header {
         height: 100vh;
     }
 
-    .big-img {
-        width: 23rem;
+    .img-container {
+        margin: 2rem 0 0 0;
+    }
+
+    .img-group {
+        width: 100%;
+    }
+
+    .big-img:nth-child(1) {
+        width: 100%;
+        position: relative;
+        transform: translateX(0);
+    }
+
+    .big-img:nth-child(2), 
+    .big-img:nth-child(3), 
+    .big-img:nth-child(4) {
+        display: none;
+    }
+
+    .small-img {
+        display: none;
     }
 }
