@@ -18,7 +18,7 @@ header {
     font-size: 1rem;
 }
 
-.main-img {
+.big-img {
     width: 22rem;
     height: 30rem;
     position: absolute;
@@ -27,7 +27,7 @@ header {
     margin-top: 2rem;
 }
 
-.main-img > img {
+.big-img > img {
     border-radius: 1rem;
 }
 
