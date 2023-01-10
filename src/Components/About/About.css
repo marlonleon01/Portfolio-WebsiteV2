@@ -4,11 +4,21 @@
     gap: 15%;
 }
 
+#about >h2 {
+    font-size: 2rem;
+    margin-top: 0.2rem;
+}
+
+#about > h5 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
 .about-me {
     display: grid;
     place-items: center;
     width: 100%;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1/1.2;
     border-radius: 2rem;
     background: linear-gradient(
         45deg, 
@@ -23,6 +33,7 @@
     overflow: hidden;
     transform: rotate(10deg);
     transition: var(--transition);
+    height: 100%;
 }
 
 .about-img:hover {
@@ -31,7 +42,7 @@
 
 .about-cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
 
@@ -52,16 +63,16 @@
 
 .about-icon {
     color: var(--color-primary);
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     margin-bottom: 1rem;
 }
 
 .about-card > h5 {
-    font-size: 1rem;
+    font-size: 1.4rem;
 }
 
 .about-card > small {
-    font-size: 0.75rem;
+    font-size: 1rem;
     color: var(--color-light);
 }
 
@@ -97,7 +108,7 @@
     }
 
     .about-cards {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 1rem;
     }
 
