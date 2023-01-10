@@ -132,6 +132,10 @@ header {
         transform: translateX(0);
     }
 
+    .img-group:hover > .big-img:nth-child(8) {
+        transform: translateX(0);
+    }
+
     .big-img:nth-child(2), 
     .big-img:nth-child(4), 
     .big-img:nth-child(6) {
@@ -152,6 +156,10 @@ header {
         top: 0;
         left: 50%;
         transform: translate(-50%);
+    }
+
+    .img-group:hover > .big-img:nth-child(8) {
+        transform: translateX(-50%);
     }
 
     .big-img:nth-child(2), 
