@@ -1,5 +1,5 @@
 import "./Header.css"
-import Maya from "../../imgs/Maya photo.jpg"
+// import Maya from "../../imgs/Maya photo.jpg"
 
 export function Header() {
     return (
@@ -9,28 +9,28 @@ export function Header() {
                 <h1>Marlon Leon</h1>
                 <h5 className="text-light">Front-End Developer</h5>
                 <div className="card-group">
-                    <div className="big-img">
-                        <img src={Maya} alt="me"></img>
+                    <div className="big-img img">
+                        {/* <img src={Maya} alt="me"></img> */}
                     </div>
-                    <div className="big-img">
+                    <div className="big-img img">
 
                     </div>
-                    <div className="big-img">
+                    <div className="big-img img">
                         
                     </div>
-                    <div className="big-img">
+                    <div className="big-img img">
                         
                     </div>
-                    <div className="small-img">
+                    <div className="small-img img">
                         
                     </div>
-                    <div className="small-img">
+                    <div className="small-img img">
                         
                     </div>
-                    <div className="small-img">
+                    <div className="small-img img">
                         
                     </div>
-                    <div className="small-img">
+                    <div className="small-img img">
                         
                     </div>
                 </div>
