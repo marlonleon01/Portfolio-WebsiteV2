@@ -102,15 +102,15 @@ header {
 }
 
 .img-group:hover > .small-img:nth-child(3) {
-    transform: translate(200%, 190%) rotate(15deg);
+    transform: translate(255%, 190%) rotate(15deg);
 }
 
 .img-group:hover > .small-img:nth-child(5) {
-    transform: translate(-290%, -190%) rotate(15deg);
+    transform: translate(-300%, -200%) rotate(15deg);
 }
 
 .img-group:hover > .small-img:nth-child(7) {
-    transform: translate(-280%, 190%) rotate(-15deg);
+    transform: translate(-350%, 190%) rotate(-15deg);
 }
 
 /* Effect ends here */
