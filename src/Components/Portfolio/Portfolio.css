@@ -47,6 +47,11 @@
     margin-bottom: 1rem;
 }
 
+.portfolio-item-btns > a {
+    width: 7rem;
+    text-align: center;
+}
+
 /* Media Queries (Tablets) */
 
 @media screen and (max-width: 1024px) {
