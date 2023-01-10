@@ -1,7 +1,7 @@
 .about-container {
     display: grid;
-    grid-template-columns: 30% 55%;
-    gap: 15%;
+    grid-template-columns: 30% 60%;
+    gap: 10%;
 }
 
 #about {
@@ -76,7 +76,7 @@
 }
 
 .about-card > h5 {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 .about-card > small {
