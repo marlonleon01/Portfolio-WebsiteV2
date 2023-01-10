@@ -8,30 +8,32 @@ export function Header() {
                 <h5>Hello I'm</h5>
                 <h1>Marlon Leon</h1>
                 <h5 className="text-light">Front-End Developer</h5>
-                <div className="card-group">
-                    <div className="big-img img">
-                        {/* <img src={Maya} alt="me"></img> */}
-                    </div>
-                    <div className="big-img img">
+                <div className="img-container">
+                    <div className="img-group">
+                        <div className="big-img img">
+                            {/* <img src={Maya} alt="me"></img> */}
+                        </div>
+                        <div className="big-img img">
 
-                    </div>
-                    <div className="big-img img">
-                        
-                    </div>
-                    <div className="big-img img">
-                        
-                    </div>
-                    <div className="small-img img">
-                        
-                    </div>
-                    <div className="small-img img">
-                        
-                    </div>
-                    <div className="small-img img">
-                        
-                    </div>
-                    <div className="small-img img">
-                        
+                        </div>
+                        <div className="big-img img">
+                            
+                        </div>
+                        <div className="big-img img">
+                            
+                        </div>
+                        <div className="small-img img">
+                            
+                        </div>
+                        <div className="small-img img">
+                            
+                        </div>
+                        <div className="small-img img">
+                            
+                        </div>
+                        <div className="small-img img">
+                            
+                        </div>
                     </div>
                 </div>
             </div>
