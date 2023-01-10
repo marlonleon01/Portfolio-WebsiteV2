@@ -1,10 +1,22 @@
 import "./Contact.css"
+import React, { useRef } from 'react';
+import emailjs from "emailjs-com"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons"
 import {faFacebookMessenger} from "@fortawesome/free-brands-svg-icons"
 import {faWhatsapp} from "@fortawesome/free-brands-svg-icons"
 
 export function Contact() {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_ljlfdwc', 'template_of7n527', form.current, '339EaFdXiVuPblrpy')
+
+        e.target.reset();
+      };
+
     return (
         <section id="contact">
             <h2>Contact Me</h2>
@@ -34,7 +46,7 @@ export function Contact() {
                         </a>
                     </article>
                 </div>
-                <form action="">
+                <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name="name" placeholder="Your Full Name" required />
                     <input type="email" name="email" placeholder="Your Email" required />
                     <input type="text" name="subject" placeholder="Subject" required />
