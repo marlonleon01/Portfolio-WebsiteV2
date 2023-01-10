@@ -53,11 +53,25 @@ header {
 .small-img {
     width: 10rem;
     border-radius: 1rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .big-img:nth-child(1) {
-    background-color: rgba(255, 255, 255, 1);
-    transform: translateX(-5%);
+    transform: translateX(-10%) rotate(-1deg);
+}
+
+.big-img:nth-child(2) {
+    transform: rotate(2deg);
+}
+
+.big-img:nth-child(3) {
+    transform: translateX(-6%) rotate(-3deg);
+}
+
+.big-img:nth-child(4) {
+    transform: translate(10%, 3%) rotate(5deg);
 }
 
 /* Effect ends here */
