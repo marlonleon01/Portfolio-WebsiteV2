@@ -25,6 +25,19 @@ export function About() {
                             <small>4 Months</small>
                         </article>
                         <article className="about-card">
+                            <FontAwesomeIcon icon={faMedal} className="about-icon"></FontAwesomeIcon>
+                            <h5>Specilizations</h5>
+                            <small>
+                                <ul>
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Javascript</li>
+                                    <li>React.js</li>
+                                    <li>Git/Github</li>
+                                </ul>
+                            </small>
+                        </article>
+                        <article className="about-card">
                             <FontAwesomeIcon icon={faFolderClosed} className="about-icon"></FontAwesomeIcon>
                             <h5>Projects</h5>
                             <small>18 Projects</small>
