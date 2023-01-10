@@ -23,6 +23,16 @@
     font-size: 1.1rem;
 }
 
+.navbar > div > a {
+    color: var(--color-white)
+}
+
+.navbar > div > a:hover {
+    color: var(--color-primary)
+}
+
+/* Media Queries (Mobile) */
+
 @media screen and (max-width: 550px) {
     .navbar {
         padding: 1rem;
