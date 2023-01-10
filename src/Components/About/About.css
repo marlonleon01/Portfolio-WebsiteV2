@@ -5,7 +5,7 @@
 }
 
 #about {
-    padding-top: 2rem;
+    padding: 2rem 0 20rem 0
 }
 
 #about >h2 {
@@ -97,6 +97,10 @@
 /* Media Queries (Tablets) */
 
 @media screen and (max-width: 1024px) {
+    #about {
+        padding: 2rem 0 0 0;
+    }
+
     .about-container {
         grid-template-columns: 1fr;
         gap: 0;
@@ -115,6 +119,10 @@
 /* Media Queries (Phones) */
 
 @media screen and (max-width: 550px) {
+    #about {
+        padding: 2rem 0 0 0;
+    }
+    
     .about-me {
         width: 65%;
         margin: 0 auto 3rem;
