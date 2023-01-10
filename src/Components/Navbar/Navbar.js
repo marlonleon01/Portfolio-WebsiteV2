@@ -9,7 +9,7 @@ import {faGithubSquare} from "@fortawesome/free-brands-svg-icons"
 
 export function Navbar() {
     return (
-        <nav className="navbar">
+        <nav className="navbar" id="navbar">
             {/* Add real website links */}
             <div>
                 <a href="https://www.linkedin.com/in/marlon-leon/" target="_blank" rel="noopener noreferrer">
