@@ -122,13 +122,6 @@ header {
         height: 100vh;
     }
 
-    .img-container {
-        margin: 2rem 0 0 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
     .img-group {
         width: 100%;
     }
@@ -152,11 +145,7 @@ header {
 
 /* Media Queries (Tablets) */
 
-@media screen and (max-width: 1024px) {
-    .img-container {
-        margin: 2rem 0 0 0;
-    }
-    
+@media screen and (max-width: 1024px) and (min-width: 650px) {
     .big-img:nth-child(2) {
         width: 26rem;
         position: relative;
