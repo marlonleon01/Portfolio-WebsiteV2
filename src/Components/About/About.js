@@ -13,12 +13,12 @@ export function About() {
             <div className="container about-container">
                 <div className="about-me">
                     {/* Add image of myself */}
-                    <div className= "about-me-img">
+                    <div className= "about-img">
                         <img src={Maya} alt="About Image"></img>
                     </div>
                 </div>
                 <div className="about-content">
-                    <div className="about_cards">
+                    <div className="about-cards">
                         <article className="about-card">
                             <FontAwesomeIcon icon={faMedal} className="about-icon"></FontAwesomeIcon>
                             <h5>Experience</h5>
@@ -38,6 +38,7 @@ export function About() {
                 I have spent many hours studying the fundamentals but, most importantly, creating as many projects from scratch as possible. 
                 This way, I could practice fixing errors and learning to write cleaner code.
                 </p>
+                <a href="#contact" className="btn btn-primary"></a>
                 </div>
             </div>
         </section>
