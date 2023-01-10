@@ -37,6 +37,7 @@ export function Header() {
                             <img src={DogCat}></img>
                         </div>
                         <div className="big-img img">
+                            {/* Main Image */}
                             <img src={DogLicking}></img>
                         </div>
                     </div>
