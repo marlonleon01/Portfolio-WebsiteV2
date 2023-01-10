@@ -1,5 +1,5 @@
 header {
-    height: 100vh;
+    height: 80vh;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -19,24 +19,24 @@ header {
 }
 
 .big-img {
-    width: 22rem;
-    height: 30rem;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    width: 26rem;
+    aspect-ratio: 5/7;
     margin-top: 2rem;
+    /* position: absolute;
+    left: 50%;
+    transform: translateX(-50%); */
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
-.big-img > img {
+/* .big-img > img {
     border-radius: 1rem;
-}
+    width: 100%;
+} */
 
-/* Media Queries (Tablets) */
-
-@media screen and (max-width: 1024px) {
-    header {
-        height: 68vh;
-    }
+.small-img {
+    width: 10rem;
+    aspect-ratio: 5/7;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 /* Media Queries (Phones) */
@@ -44,5 +44,9 @@ header {
 @media screen and (max-width: 550px) {
     header {
         height: 100vh;
+    }
+
+    .big-img {
+        width: 23rem;
     }
 }
