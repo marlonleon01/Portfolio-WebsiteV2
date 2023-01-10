@@ -38,7 +38,7 @@ export function About() {
                 I have spent many hours studying the fundamentals but, most importantly, creating as many projects from scratch as possible. 
                 This way, I could practice fixing errors and learning to write cleaner code.
                 </p>
-                <a href="#contact" className="btn btn-primary"></a>
+                <a href="#contact" className="btn btn-primary">Contact</a>
                 </div>
             </div>
         </section>
