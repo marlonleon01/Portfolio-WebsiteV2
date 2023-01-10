@@ -1,5 +1,5 @@
 header {
-    height: 80vh;
+    height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
 }
@@ -31,7 +31,7 @@ header {
 }
 
 .img-group, .big-img {
-    width: 26rem;
+    width: 23rem;
 }
 
 .img {
@@ -42,20 +42,25 @@ header {
 }
 
 .big-img {
-    width: 26rem;
+    width: 23rem;
     border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
-/* .big-img > img {
-    border-radius: 1rem;
-    width: 100%;
-} */
+.big-img > img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100% ;
+}
 
 .small-img {
-    width: 10rem;
+    width: 8rem;
     border-radius: 1rem;
     left: 50%;
-    top: 50%;
+    top: 35%;
     transform: translate(-50%, -50%);
 }
 
@@ -77,8 +82,37 @@ header {
 
 
 .img-group:hover > .big-img:nth-child(2) {
-    transform: translate(-70%, 15%) rotate(-20deg);
+    transform: translate(-75%, 16%) rotate(-24deg);
 }
+
+.img-group:hover > .big-img:nth-child(4) {
+    transform: translate(-25%, 8%) rotate(-8deg);
+}
+
+.img-group:hover > .big-img:nth-child(6) {
+    transform: translate(25%, 8%) rotate(8deg);
+}
+
+.img-group:hover > .big-img:nth-child(8) {
+    transform: translate(75%, 16%) rotate(24deg);
+}
+
+.img-group:hover > .small-img:nth-child(1) {
+    transform: translate(215%, -190%) rotate(-15deg);
+}
+
+.img-group:hover > .small-img:nth-child(3) {
+    transform: translate(200%, 190%) rotate(15deg);
+}
+
+.img-group:hover > .small-img:nth-child(5) {
+    transform: translate(-290%, -190%) rotate(15deg);
+}
+
+.img-group:hover > .small-img:nth-child(7) {
+    transform: translate(-280%, 190%) rotate(-15deg);
+}
+
 /* Effect ends here */
 
 /* Media Queries (Phones) */
@@ -90,6 +124,9 @@ header {
 
     .img-container {
         margin: 2rem 0 0 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .img-group {
@@ -118,10 +155,6 @@ header {
 @media screen and (max-width: 1024px) {
     .img-container {
         margin: 2rem 0 0 0;
-    }
-
-    .img-group {
-        width: 100%;
     }
     
     .big-img:nth-child(2) {
