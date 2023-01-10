@@ -151,12 +151,17 @@ header {
 /* Media Queries (Tablets) */
 
 @media screen and (max-width: 1024px) and (min-width: 650px) {
-    .big-img:nth-child(8) {
+    .img-group {
         width: 26rem;
+    }
+
+    .big-img:nth-child(8) {
         position: relative;
         top: 0;
         left: 50%;
         transform: translate(-50%);
+        height: 100%;
+        width: 100%;
     }
 
     .img-group:hover > .big-img:nth-child(8) {
