@@ -1,5 +1,8 @@
 import "./Header.css"
-// import Maya from "../../imgs/Maya photo.jpg"
+import SmartDog from "../../imgs/Smart Dog.jpg"
+import DogCat from "../../imgs/Dog and Cat.jpg"
+import DogLicking from "../../imgs/Dog Licking Cat.jpg"
+import BlackCat from "../../imgs/Black Cat.jpg"
 
 export function Header() {
     return (
@@ -11,31 +14,30 @@ export function Header() {
                 <div className="img-container">
                     <div className="img-group">
                         <div className="small-img img">
-                            
+                            <img src={BlackCat}></img>
                         </div>
                         <div className="big-img img">
-                            {/* <img src={Maya} alt="me"></img> */}
+                            <img src={BlackCat}></img>
+                        </div>
+                        <div className="small-img img">
+                            <img src={SmartDog}></img>
+                        </div>
+                        <div className="big-img img">
+                            <img src={DogCat}></img>
                         </div>
                         
                         <div className="small-img img">
-                            
+                            <img src={DogLicking}></img>
                         </div>
                         <div className="big-img img">
-
+                            <img src={SmartDog}></img>
                         </div>
                         
                         <div className="small-img img">
-                            
+                            <img src={DogCat}></img>
                         </div>
                         <div className="big-img img">
-                            
-                        </div>
-                        
-                        <div className="small-img img">
-                            
-                        </div>
-                        <div className="big-img img">
-                            
+                            <img src={DogLicking}></img>
                         </div>
                     </div>
                 </div>
