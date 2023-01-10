@@ -59,3 +59,14 @@
 .about-card > h5 {
     font-size: 1rem;
 }
+
+.about-card > small {
+    font-size: 0.75rem;
+    color: var(--color-light);
+}
+
+.about-content > p {
+    margin: 2rem 0 2.5rem;
+    color: var(--color-light);
+}
+
