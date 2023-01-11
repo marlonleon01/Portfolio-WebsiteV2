@@ -111,8 +111,8 @@ header {
 /* Media Queries (Phones) */
 
 @media screen and (max-width: 550px) {
-    .img-group {
-        width: 100%;
+    .img-container {
+        margin: 2rem auto;
     }
 
     .big-img:nth-child(8) {
