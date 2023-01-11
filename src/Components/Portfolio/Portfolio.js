@@ -1,49 +1,53 @@
 import "./Portfolio.css"
-
-import Maya from "../../imgs/Maya photo.jpg"
+import InfoSite from "../../imgs/React Info Site.png"
+import BusinessCard from "../../imgs/React Business Card.png"
+import BlackJack from "../../imgs/BlackJack App.png"
+import Calculator from "../../imgs/Calculator.png"
+import QuoteGenerator from "../../imgs/Quote Generator.png"
+import Stopwatch from "../../imgs/Stopwatch.png"
 
 const dataPortfolio = [
     {
         id: 1,
-        image: Maya,
+        image: InfoSite,
         title: "React Info Site",
         github: "https://github.com/marlonleon01/React-Info-Site",
         liveView: "https://github.com/marlonleon01/React-Info-Site"
     },
     {
         id: 2,
-        image: Maya,
-        title: "React Info Site",
-        github: "https://github.com/marlonleon01/React-Info-Site",
-        liveView: "https://github.com/marlonleon01/React-Info-Site"
+        image: BusinessCard,
+        title: "React Business Card",
+        github: "https://github.com/marlonleon01/React-Business-Cards",
+        liveView: "https://github.com/marlonleon01/React-Business-Cards"
     },
     {
         id: 3,
-        image: Maya,
-        title: "React Info Site",
-        github: "https://github.com/marlonleon01/React-Info-Site",
-        liveView: "https://github.com/marlonleon01/React-Info-Site"
+        image: BlackJack,
+        title: "BlackJack App",
+        github: "https://github.com/marlonleon01/BlackJack-App",
+        liveView: "https://github.com/marlonleon01/BlackJack-App"
     },
     {
         id: 4,
-        image: Maya,
-        title: "React Info Site",
-        github: "https://github.com/marlonleon01/React-Info-Site",
-        liveView: "https://github.com/marlonleon01/React-Info-Site"
+        image: Calculator,
+        title: "Calculator",
+        github: "https://github.com/marlonleon01/Calculator",
+        liveView: "https://github.com/marlonleon01/Calculator"
     },
     {
         id: 5,
-        image: Maya,
-        title: "React Info Site",
-        github: "https://github.com/marlonleon01/React-Info-Site",
-        liveView: "https://github.com/marlonleon01/React-Info-Site"
+        image: QuoteGenerator,
+        title: "Random Quote Generator",
+        github: "https://github.com/marlonleon01/Random-Quote-Generator",
+        liveView: "https://github.com/marlonleon01/Random-Quote-Generator"
     },
     {
         id: 6,
-        image: Maya,
-        title: "React Info Site",
-        github: "https://github.com/marlonleon01/React-Info-Site",
-        liveView: "https://github.com/marlonleon01/React-Info-Site"
+        image: Stopwatch,
+        title: "Stopwatch",
+        github: "https://github.com/marlonleon01/Stopwatch",
+        liveView: "https://github.com/marlonleon01/Stopwatch"
     },
 ]
 
