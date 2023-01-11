@@ -144,9 +144,9 @@ header {
     }
 }
 
-/* Media Queries (Tablets) */
+/* Media Queries (Tablets/Slightly bigger screens) */
 
-@media screen and (max-width: 1024px) and (min-width: 650px) {
+@media screen and (max-width: 1250px) and (min-width: 650px) {
     .img-group {
         width: 26rem;
     }
@@ -174,3 +174,5 @@ header {
         display: none;
     }
   }
+
+  
