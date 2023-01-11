@@ -37,6 +37,11 @@
     aspect-ratio: 5/4;
 }
 
+.portfolio-item-image > img {
+    height: 100%;
+    width: 100%;
+}
+
 .portfolio-item > h3 {
     margin: 1.2rem 0 2rem;
 }
