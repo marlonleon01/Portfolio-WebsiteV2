@@ -44,12 +44,16 @@ export function About() {
                         </article>
                     </div>
                 <p>
-                I am an aspiring front-end web developer that studied music education. 
-                Although I studied music education, technology has always been a passion of mine and has come somewhat naturally to me. 
-                This is why I decided to leave the field of education because I always wanted to do something in tech; I just made that 
-                connection after graduating with my bachelor's degree. Since early September 2022, I have been developing my programming skills. 
-                I have spent many hours studying the fundamentals but, most importantly, creating as many projects from scratch as possible. 
-                This way, I could practice fixing errors and learning to write cleaner code.
+                I am an aspiring front-end web developer. I started learning through 
+                the freeCodeCamp curriculum, where I received the Responsive Web Design 
+                Certification and Javascript Algorithms and Data Structures Certification. 
+                Still, I have also used other resources to learn. In that time, I have created 
+                over 15 projects, all ranging in difficulty. I am proficient in writing HTML, 
+                CSS, and JavaScript. I can also use Git/Github to make the development process 
+                more manageable. I have used HTML, CSS, and JavaScript daily since I began 
+                learning and have focused on making my web applications more user-friendly and 
+                appealing. I have also used React to write composable code and avoid code clutter 
+                by using separate components.
                 </p>
                 <a href="#contact" className="btn btn-primary">Contact</a>
                 </div>
