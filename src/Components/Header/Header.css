@@ -85,9 +85,40 @@ header {
 
 /* Media Queries (Phones) */
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 550px) {
     .img-container {
         margin: 2rem auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .big-img:nth-child(4) {
+        position: relative;
+        transform: translateX(0);
+    }
+
+    .img-group:hover > .big-img:nth-child(4) {
+        transform: translateX(0);
+    }
+
+    .big-img:nth-child(1), 
+    .big-img:nth-child(2), 
+    .big-img:nth-child(3) {
+        display: none;
+    }
+}
+
+/* Media Queries (Tablets/Small screens) */
+
+@media screen and (min-width: 551px) and (max-width: 1250px) {
+    .img-container {
+        margin: 2rem auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-group, .big-img, .big-img > img {
+        width: 28rem;
     }
 
     .big-img:nth-child(4) {
