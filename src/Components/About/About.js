@@ -1,5 +1,5 @@
 import "./About.css"
-import Maya from "../../imgs/Maya photo.jpg"
+import GraduationStanding from "../../imgs/Graduation Standing.JPG"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faMedal} from "@fortawesome/free-solid-svg-icons"
 import {faFolderClosed} from "@fortawesome/free-solid-svg-icons"
@@ -14,7 +14,7 @@ export function About() {
                 <div className="about-me">
                     {/* Add image of myself */}
                     <div className= "about-img">
-                        <img src={Maya} alt="About Image"></img>
+                        <img src={GraduationStanding} alt="About Image"></img>
                     </div>
                 </div>
                 <div className="about-content">
