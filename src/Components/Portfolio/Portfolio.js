@@ -54,7 +54,7 @@ export function Portfolio() {
             <h2>Portfolio</h2>
             <div className="more-projects-container">
             <a href="https://github.com/marlonleon01" target="_blank" rel="noopener noreferrer" className="more-projects-section">
-                <FontAwesomeIcon icon={faGithubSquare}>
+                <FontAwesomeIcon icon={faGithubSquare} alt="github icon">
                 </FontAwesomeIcon>
                 <span className="more-projects-text">More projects</span>
             </a>
