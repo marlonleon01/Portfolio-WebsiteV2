@@ -22,7 +22,7 @@
     display: grid;
     place-items: center;
     width: 100%;
-    aspect-ratio: 1/1.627;
+    aspect-ratio: 5/7;
     border-radius: 2rem;
     background: linear-gradient(
         45deg, 
