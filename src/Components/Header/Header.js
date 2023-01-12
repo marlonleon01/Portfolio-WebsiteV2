@@ -1,8 +1,13 @@
 import "./Header.css"
-import SmartDog from "../../imgs/Smart Dog.jpg"
-import DogCat from "../../imgs/Dog and Cat.jpg"
-import DogLicking from "../../imgs/Dog Licking Cat.jpg"
-import BlackCat from "../../imgs/Black Cat.jpg"
+import GraduationSitting from "../../imgs/Graduation Sitting.JPG"
+import Computer from "../../imgs/Computer.jpg"
+import MiamiShirt from "../../imgs/Miami shirt.jpg"
+import BeReal from "../../imgs/BeReal.jpg"
+import Milo from "../../imgs/Milo.JPG"
+import Munchkin from "../../imgs/Munchkin.jpg"
+import MayaAndMe from "../../imgs/Maya and Me.JPG"
+import LuciaAndMe from "../../imgs/Lucia and Me.jpg"
+
 
 export function Header() {
     return (
@@ -14,31 +19,31 @@ export function Header() {
                 <div className="img-container">
                     <div className="img-group">
                         <div className="small-img img">
-                            <img src={BlackCat}></img>
+                            <img src={LuciaAndMe}></img>
                         </div>
                         <div className="big-img img">
-                            <img src={BlackCat}></img>
+                            <img src={BeReal}></img>
                         </div>
                         <div className="small-img img">
-                            <img src={SmartDog}></img>
+                            <img src={Munchkin}></img>
                         </div>
                         <div className="big-img img">
-                            <img src={DogCat}></img>
+                            <img src={Computer}></img>
                         </div>
                         
                         <div className="small-img img">
-                            <img src={DogLicking}></img>
+                            <img src={MayaAndMe}></img>
                         </div>
                         <div className="big-img img">
-                            <img src={SmartDog}></img>
+                            <img src={MiamiShirt}></img>
                         </div>
                         
                         <div className="small-img img">
-                            <img src={DogCat}></img>
+                            <img src={Milo}></img>
                         </div>
                         <div className="big-img img">
                             {/* Main Image */}
-                            <img src={DogLicking}></img>
+                            <img src={GraduationSitting}></img>
                         </div>
                     </div>
                 </div>
