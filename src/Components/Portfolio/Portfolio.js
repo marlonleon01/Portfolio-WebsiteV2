@@ -52,12 +52,16 @@ export function Portfolio() {
         <section id="portfolio">
             <h5>My Recent Work</h5>
             <h2>Portfolio</h2>
-            <a href="https://github.com/marlonleon01" target="_blank" rel="noopener noreferrer">
-                <FontAwesomeIcon icon={faGithubSquare}></FontAwesomeIcon> More projects
+            <div className="more-projects-container">
+            <a href="https://github.com/marlonleon01" target="_blank" rel="noopener noreferrer" className="more-projects-section">
+                <FontAwesomeIcon icon={faGithubSquare}>
+                </FontAwesomeIcon>
+                <span className="more-projects-text">More projects</span>
             </a>
+            </div>
             <div className="container portfolio-container">
                 {
-                    dataPortfolio.map(({id, image, title, github, liveView}) => {
+                    dataPortfolio.map(({id, image, title, github}) => {
                         return (
                             <article key={id} className="portfolio-item">
                                 <div className="portfolio-item-image">
