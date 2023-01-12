@@ -26,7 +26,7 @@ export function Header() {
                         </div>
                         <div className="big-img img">
                             {/* Main Image */}
-                            <img src={GraduationSitting} alt="Graduation Image"></img>
+                            <img src={GraduationSitting} alt="Graduation Image" rel="preload" as="image"></img>
                         </div>
                     </div>
                 </div>
