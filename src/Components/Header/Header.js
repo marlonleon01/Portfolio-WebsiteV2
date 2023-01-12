@@ -1,12 +1,12 @@
 import "./Header.css"
-import GraduationSitting from "../../imgs/Graduation Sitting.JPG"
-import Computer from "../../imgs/Computer.jpg"
-import MiamiShirt from "../../imgs/Miami shirt.jpg"
-import BeReal from "../../imgs/BeReal.jpg"
-import Milo from "../../imgs/Milo.JPG"
-import Munchkin from "../../imgs/Munchkin.jpg"
-import MayaAndMe from "../../imgs/Maya and Me.JPG"
-import LuciaAndMe from "../../imgs/Lucia and Me.jpg"
+import GraduationSitting from "../../imgs/Graduation Sitting.avif"
+import Computer from "../../imgs/Computer.avif"
+import MiamiShirt from "../../imgs/Miami shirt.avif"
+import BeReal from "../../imgs/BeReal.avif"
+import Milo from "../../imgs/Milo.avif"
+import Munchkin from "../../imgs/Munchkin.avif"
+import MayaAndMe from "../../imgs/Maya and Me.avif"
+import LuciaAndMe from "../../imgs/Lucia and Me.avif"
 
 
 export function Header() {

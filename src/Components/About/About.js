@@ -1,5 +1,5 @@
 import "./About.css"
-import GraduationStanding from "../../imgs/Graduation Standing.JPG"
+import GraduationStanding from "../../imgs/Graduation Standing.avif"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faMedal} from "@fortawesome/free-solid-svg-icons"
 import {faFolderClosed} from "@fortawesome/free-solid-svg-icons"
