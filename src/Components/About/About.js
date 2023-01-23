@@ -40,7 +40,7 @@ export function About() {
                         <article className="about-card">
                             <FontAwesomeIcon icon={faFolderClosed} className="about-icon"></FontAwesomeIcon>
                             <h5>Projects</h5>
-                            <small>18 Projects</small>
+                            <small>18+ Projects</small>
                         </article>
                     </div>
                 <p>
@@ -53,7 +53,8 @@ export function About() {
                 more manageable. I have used HTML, CSS, and JavaScript daily since I began 
                 learning and have focused on making my web applications more user-friendly and 
                 appealing. I have also used React to write composable code and avoid code clutter 
-                by using separate components.
+                by using separate components. I love working in a team environment and enjoy constantly 
+                testing myself to learn something new.
                 </p>
                 <a href="#contact" className="btn btn-primary">Contact</a>
                 </div>
