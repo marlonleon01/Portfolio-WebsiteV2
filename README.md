@@ -1,6 +1,6 @@
 # Portfolio Website
 
-## In progress (should have initial build done January 10, 2023)
+## Version 1
 
 # Getting Started with Create React App
 
