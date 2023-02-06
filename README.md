@@ -2,6 +2,24 @@
 
 ## Version 1
 
+## Description
+-I created this site to practice making entire websites all by myself 
+-It was also so I can have a place to display all my projects and important content
+-It really allowed me to use everything I had learn without any outside help
+
+## Required Files
+-Git  
+-Node.js  
+-Npm (which should be included with your node installation)  
+-Code editor (Visual Studio Code recommended)  
+
+## Installation
+-Open terminal  
+-Clone the repo with: $ git clone {url}  
+-cd into the folder  
+-type: $ npm install  
+-then follow from "Getting Started with Create React App"  
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
