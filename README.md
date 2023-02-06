@@ -3,9 +3,9 @@
 ## Version 1
 
 ## Description
--I created this site to practice making entire websites all by myself 
--It was also so I can have a place to display all my projects and important content
--It really allowed me to use everything I had learn without any outside help
+-I created this site to practice making entire websites all by myself   
+-It was also so I can have a place to display all my projects and important content  
+-It really allowed me to use everything I had learn without any outside help  
 
 ## Required Files
 -Git  
