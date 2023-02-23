@@ -14,7 +14,7 @@ const dataPortfolio = [
         image: TenziesGame,
         title: "Tenzies Game",
         github: "https://github.com/marlonleon01/Tenzies-Game",
-        live: "tenzies-game.marlonleon.net"
+        live: "https://marlonleon.net/tenzies-game.marlonleon.net"
     },
     {
         id: 2,
