@@ -67,7 +67,7 @@ export function Portfolio() {
             </div>
             <div className="container portfolio-container">
                 {
-                    dataPortfolio.map(({id, image, title, github}) => {
+                    dataPortfolio.map(({id, image, title, github, live}) => {
                         return (
                             <article key={id} className="portfolio-item">
                                 <div className="portfolio-item-image">
