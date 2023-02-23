@@ -22,7 +22,7 @@ export function About() {
                         <article className="about-card">
                             <FontAwesomeIcon icon={faMedal} className="about-icon"></FontAwesomeIcon>
                             <h5>Experience</h5>
-                            <small>4 Months</small>
+                            <small>6 Months</small>
                         </article>
                         <article className="about-card">
                             <FontAwesomeIcon icon={faMedal} className="about-icon"></FontAwesomeIcon>
@@ -33,6 +33,8 @@ export function About() {
                                     <li>CSS</li>
                                     <li>Javascript</li>
                                     <li>React.js</li>
+                                    <li>TypeScript</li>
+                                    <li>JSON</li>
                                     <li>Git/Github</li>
                                 </ul>
                             </small>
@@ -40,21 +42,19 @@ export function About() {
                         <article className="about-card">
                             <FontAwesomeIcon icon={faFolderClosed} className="about-icon"></FontAwesomeIcon>
                             <h5>Projects</h5>
-                            <small>18+ Projects</small>
+                            <small>30+ Projects</small>
                         </article>
                     </div>
                 <p>
-                I am an aspiring front-end web developer. I started learning through 
-                the freeCodeCamp curriculum, where I received the Responsive Web Design 
-                Certification and Javascript Algorithms and Data Structures Certification. 
-                Still, I have also used other resources to learn. In that time, I have created 
-                over 15 projects, all ranging in difficulty. I am proficient in writing HTML, 
-                CSS, and JavaScript. I can also use Git/Github to make the development process 
-                more manageable. I have used HTML, CSS, and JavaScript daily since I began 
-                learning and have focused on making my web applications more user-friendly and 
-                appealing. I have also used React to write composable code and avoid code clutter 
-                by using separate components. I love working in a team environment and enjoy constantly 
-                testing myself to learn something new.
+                I am an aspiring front-end web developer. I started learning through
+                the freeCodeCamp curriculum, where I received the Responsive
+                Web Design Certification and Javascript Algorithms and Data
+                Structures Certification. I am also learning through Scrimba's
+                Frontend Developer path. I have entry-level experience specializing in
+                web development, UI/UX design, HTML, CSS, JavaScript, and React.
+                I write my code to be efficient so that my web pages/apps have
+                great accessibility, performance, and appeal to users. I love working 
+                in a team environment and enjoy constantly testing myself to learn something new.
                 </p>
                 <a href="#contact" className="btn btn-primary">Contact</a>
                 </div>
