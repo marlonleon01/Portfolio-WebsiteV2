@@ -42,7 +42,7 @@ const dataPortfolio = [
         image: MemeGenerator,
         title: "Meme Generator",
         github: "https://github.com/marlonleon01/Meme-Generator",
-        live: "https://colorscheme-generator.marlonleon.net/"
+        live: "https://meme-generator.marlonleon.net/"
     },
     {
         id: 6,
