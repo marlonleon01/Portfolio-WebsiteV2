@@ -1,10 +1,10 @@
 import "./Portfolio.css"
 import TenziesGame from "../../imgs/Tenzies Game.webp"
-import BusinessCard from "../../imgs/React Business Card.webp"
+import MovieWatchlist from "../../imgs/Movie Watchlist.webp"
 import BlackJack from "../../imgs/BlackJack App.webp"
 import Calculator from "../../imgs/Calculator.webp"
-import QuoteGenerator from "../../imgs/Quote Generator.webp"
-import Stopwatch from "../../imgs/Stopwatch.webp"
+import MemeGenerator from "../../imgs/Meme Generator.webp"
+import ColorSchemeGenerator from "../../imgs/Color Scheme Generator.webp"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faGithubSquare} from "@fortawesome/free-brands-svg-icons"
 
@@ -18,9 +18,9 @@ const dataPortfolio = [
     },
     {
         id: 2,
-        image: BusinessCard,
-        title: "React Business Card",
-        github: "https://github.com/marlonleon01/React-Business-Cards",
+        image: MovieWatchlist,
+        title: "Movie Watchlist",
+        github: "https://github.com/marlonleon01/Movie-Watchlist",
         // live: "https://github.com/marlonleon01/React-Info-Site"
     },
     {
@@ -39,16 +39,16 @@ const dataPortfolio = [
     },
     {
         id: 5,
-        image: QuoteGenerator,
-        title: "Random Quote Generator",
-        github: "https://github.com/marlonleon01/Random-Quote-Generator",
+        image: MemeGenerator,
+        title: "Meme Generator",
+        github: "https://github.com/marlonleon01/Meme-Generator",
         // live: "https://github.com/marlonleon01/React-Info-Site"
     },
     {
         id: 6,
-        image: Stopwatch,
-        title: "Stopwatch",
-        github: "https://github.com/marlonleon01/Stopwatch",
+        image: ColorSchemeGenerator,
+        title: "Color Scheme Generator",
+        github: "https://github.com/marlonleon01/Color-Scheme-Generator",
         // live: "https://github.com/marlonleon01/React-Info-Site"
     },
 ]
