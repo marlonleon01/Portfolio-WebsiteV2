@@ -86,10 +86,18 @@ header {
 /* Media Queries (Phones) */
 
 @media screen and (max-width: 550px) {
+    header {
+        padding: 7rem 0 2rem 0;
+    }
+
     .img-container {
         margin: 2rem auto;
         display: flex;
         justify-content: center;
+    }
+
+    .img-group, .big-img, .big-img > img {
+        width: 22rem;
     }
 
     .big-img:nth-child(4) {
@@ -111,6 +119,10 @@ header {
 /* Media Queries (Tablets/Small screens) */
 
 @media screen and (min-width: 551px) and (max-width: 1250px) {
+    header {
+        padding: 7rem 0 15rem 0;
+    }
+    
     .img-container {
         margin: 2rem auto;
         display: flex;
