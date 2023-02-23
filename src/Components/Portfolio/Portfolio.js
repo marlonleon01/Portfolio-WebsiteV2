@@ -14,42 +14,42 @@ const dataPortfolio = [
         image: TenziesGame,
         title: "Tenzies Game",
         github: "https://github.com/marlonleon01/Tenzies-Game",
-        // live: "https://marlonleon.net/tenzies-game.marlonleon.net"
+        live: "https://tenzies-game.marlonleon.net/"
     },
     {
         id: 2,
         image: MovieWatchlist,
         title: "Movie Watchlist",
         github: "https://github.com/marlonleon01/Movie-Watchlist",
-        // live: "https://github.com/marlonleon01/React-Info-Site"
+        live: "https://movie-watchlist.marlonleon.net/"
     },
     {
         id: 3,
         image: BlackJack,
         title: "BlackJack App",
         github: "https://github.com/marlonleon01/BlackJack-App",
-        // live: "https://github.com/marlonleon01/React-Info-Site"
+        live: "https://blackjack.marlonleon.net/"
     },
     {
         id: 4,
         image: Calculator,
         title: "Calculator",
         github: "https://github.com/marlonleon01/Calculator",
-        // live: "https://github.com/marlonleon01/React-Info-Site"
+        live: "https://calculator.marlonleon.net/"
     },
     {
         id: 5,
         image: MemeGenerator,
         title: "Meme Generator",
         github: "https://github.com/marlonleon01/Meme-Generator",
-        // live: "https://github.com/marlonleon01/React-Info-Site"
+        live: "https://colorscheme-generator.marlonleon.net/"
     },
     {
         id: 6,
         image: ColorSchemeGenerator,
         title: "Color Scheme Generator",
         github: "https://github.com/marlonleon01/Color-Scheme-Generator",
-        // live: "https://github.com/marlonleon01/React-Info-Site"
+        live: "https://colorscheme-generator.marlonleon.net/"
     },
 ]
 
@@ -78,9 +78,9 @@ export function Portfolio() {
                                 <a href={github} className="btn" target="_blank" rel="noopener noreferrer">
                                     Github
                                 </a>
-                                {/* <a href={live} className="btn" target="_blank" rel="noopener noreferrer">
+                                <a href={live} className="btn" target="_blank" rel="noopener noreferrer">
                                     Live View
-                                </a> */}
+                                </a>
                                 </div>
                             </article>
                         )
