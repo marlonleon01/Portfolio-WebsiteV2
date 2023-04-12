@@ -1,6 +1,6 @@
 # Portfolio Website
 
-## Version 2
+## Version 1.2
 
 ## Description
 -I created this site to practice making entire websites all by myself   
