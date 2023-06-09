@@ -22,7 +22,7 @@ export function About() {
                         <article className="about-card">
                             <FontAwesomeIcon icon={faMedal} className="about-icon"></FontAwesomeIcon>
                             <h5>Experience</h5>
-                            <small>6 Months</small>
+                            <small>8 Months</small>
                         </article>
                         <article className="about-card">
                             <FontAwesomeIcon icon={faMedal} className="about-icon"></FontAwesomeIcon>
@@ -33,7 +33,8 @@ export function About() {
                                     <li>CSS</li>
                                     <li>Javascript</li>
                                     <li>React.js</li>
-                                    <li>TypeScript</li>
+                                    <li>Node.js</li>
+                                    <li>Express.js</li>
                                     <li>JSON</li>
                                     <li>Git/Github</li>
                                 </ul>
