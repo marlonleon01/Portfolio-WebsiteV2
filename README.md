@@ -1,6 +1,6 @@
 # Portfolio Website
 
-## Version 1
+## Version 1.2
 
 ## Description
 -I created this site to practice making entire websites all by myself   
@@ -17,8 +17,7 @@
 -Open terminal  
 -Clone the repo with: $ git clone {url}  
 -cd into the folder  
--type: $ npm install  
--then follow from "Getting Started with Create React App"  
+-type: $ npm install   
 
 # Getting Started with Create React App
 
