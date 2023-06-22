@@ -43,7 +43,7 @@ export function About() {
                         <article className="about-card">
                             <FontAwesomeIcon icon={faFolderClosed} className="about-icon"></FontAwesomeIcon>
                             <h5>Projects</h5>
-                            <small>30+ Projects</small>
+                            <small>40+ Projects</small>
                         </article>
                     </div>
                 <p>
@@ -51,7 +51,7 @@ export function About() {
                 the freeCodeCamp curriculum, where I received the Responsive
                 Web Design Certification and Javascript Algorithms and Data
                 Structures Certification. I am also learning through Scrimba's
-                Frontend Developer path. I have entry-level experience specializing in
+                Frontend Developer path. I have experience specializing in
                 web development, UI/UX design, HTML, CSS, JavaScript, and React.
                 I write my code to be efficient so that my web pages/apps have
                 great accessibility, performance, and appeal to users. I love working 
