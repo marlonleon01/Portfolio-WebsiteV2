@@ -1,5 +1,5 @@
 header {
-    padding: 7rem 0 22rem 0;
+    padding: 10rem 0 22rem 0;
     overflow: hidden;
 }
 
@@ -9,12 +9,14 @@ header {
     position: relative;
 }
 
-.container > h5, .container > h1 {
+.container > h1 {
+    font-size: 2.5rem;
     margin: 0;
 }
 
 .container > h5 {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    margin: 0;
 }
 
 /* Img Effect */
@@ -22,15 +24,12 @@ header {
 .img-container {
     display: grid;
     place-items: center;
-    margin: 2rem;
+    margin: 6rem 2rem 0 2rem;
 }
 
 .img-group, .img {
-    aspect-ratio: 5/7;
-}
-
-.img-group, .big-img {
     width: 23rem;
+    aspect-ratio: 5/7;
 }
 
 .img {
@@ -43,41 +42,41 @@ header {
     border-radius: 1rem;
 }
 
-.big-img > img {
+.img > img {
     min-width: 23rem;
     aspect-ratio: 5/7;
 }
 
-.big-img:nth-child(1) {
+.big-img1 {
     transform: translateX(-10%) rotate(-1deg);
 }
 
-.big-img:nth-child(2) {
+.big-img2 {
     transform: rotate(2deg);
 }
 
-.big-img:nth-child(3) {
+.big-img3 {
     transform: translateX(-6%) rotate(-3deg);
 }
 
-.big-img:nth-child(4) {
+.big-img4 {
     transform: translate(10%, 3%) rotate(5deg);
 }
 
 
-.img-group:hover > .big-img:nth-child(1) {
+.big-img1-effect {
     transform: translate(-95%, 16%) rotate(-24deg);
 }
 
-.img-group:hover > .big-img:nth-child(2) {
+.big-img2-effect {
     transform: translate(-35%, 5%) rotate(-8deg);
 }
 
-.img-group:hover > .big-img:nth-child(3) {
+.big-img3-effect {
     transform: translate(35%, 5%) rotate(8deg);
 }
 
-.img-group:hover > .big-img:nth-child(4) {
+.big-img4-effect {
     transform: translate(95%, 16%) rotate(24deg);
 }
 
@@ -96,22 +95,18 @@ header {
         justify-content: center;
     }
 
-    .img-group, .big-img, .big-img > img {
+    .img-group, .img, .img > img {
         width: 22rem;
     }
 
-    .big-img:nth-child(4) {
+    .big-img4 {
         position: relative;
         transform: translateX(0);
     }
 
-    .img-group:hover > .big-img:nth-child(4) {
-        transform: translateX(0);
-    }
-
-    .big-img:nth-child(1), 
-    .big-img:nth-child(2), 
-    .big-img:nth-child(3) {
+    .big-img1, 
+    .big-img2, 
+    .big-img3 {
         display: none;
     }
 }
@@ -129,22 +124,18 @@ header {
         justify-content: center;
     }
 
-    .img-group, .big-img, .big-img > img {
+    .img-group, .img, .img > img {
         width: 28rem;
     }
 
-    .big-img:nth-child(4) {
+    .big-img4 {
         position: relative;
         transform: translateX(0);
     }
 
-    .img-group:hover > .big-img:nth-child(4) {
-        transform: translateX(0);
-    }
-
-    .big-img:nth-child(1), 
-    .big-img:nth-child(2), 
-    .big-img:nth-child(3) {
+    .big-img1, 
+    .big-img2, 
+    .big-img3 {
         display: none;
     }
 }
