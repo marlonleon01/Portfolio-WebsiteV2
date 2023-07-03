@@ -1,14 +1,15 @@
 .about-container {
     display: grid;
-    grid-template-columns: 30% 60%;
-    gap: 10%;
+    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
 }
 
 #about {
-    padding: 2rem 0 20rem 0
+    padding: 8rem 0 20rem 0
 }
 
-#about >h2 {
+#about > h2 {
     font-size: 2rem;
     margin-top: 0.2rem;
 }
@@ -18,18 +19,18 @@
     margin: 0;
 }
 
+.about-container > p {
+    margin: 0;
+    color: var(--color-light);
+}
+
 .about-me {
-    display: grid;
-    place-items: center;
-    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 28rem;
     aspect-ratio: 5/7;
     border-radius: 2rem;
-    background: linear-gradient(
-        45deg, 
-        transparent, 
-        var(--color-primary), 
-        transparent
-    );
+    background: var(--color-primary)
 }
 
 .about-img {
@@ -48,50 +49,12 @@
     height: 100%;
 }
 
-.about-cards {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1rem;
+.tech-languages-div {
+    grid-column: 1 / span 2;
 }
 
-.about-card {
-    background: var(--color-bg-variant);
-    border: 1px solid transparent;
-    border-radius: 1rem;
-    padding: 2rem;
-    text-align: center;
-    transition: var(--transition);
-    cursor: default;
-}
-
-.about-card:hover {
-    background: transparent;
-    border-color: var(--color-primary-variant);
-}
-
-.about-icon {
-    color: var(--color-primary);
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-}
-
-.about-card > h5 {
-    font-size: 1.2rem;
-}
-
-.about-card > small {
-    font-size: 1rem;
-    color: var(--color-light);
-}
-
-.about-content > p {
-    margin: 2rem 0 2.5rem;
-    color: var(--color-light);
-}
-
-.about-card > small > ul {
-    list-style: square;
-    text-align: left;
+.contact-button-div {
+    grid-column: 1 / span 2;
 }
 
 /* Media Queries (Tablets) */
@@ -126,11 +89,6 @@
     .about-me {
         width: 65%;
         margin: 0 auto 3rem;
-    }
-
-    .about-cards {
-        grid-template-columns: 1fr;
-        gap: 1rem;
     }
 
     .about-content {
