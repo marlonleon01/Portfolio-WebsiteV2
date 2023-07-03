@@ -29,11 +29,10 @@ body::-webkit-scrollbar {
 }
 
 :root {
-  /* Possible main color rgb(5,10,24) */
   --color-bg: #1a1a1a;
   --color-bg-variant: #0E4C92;
-  --color-primary: #4db5ff;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-primary: linear-gradient(135deg, #007BFF, #FF7F50);
+  --color-primary-variant: #007BFF;
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
@@ -63,13 +62,18 @@ section {
   margin-top: 4rem;
 }
 
-section > h2, section > h5 {
+section > h5 {
   text-align: center;
-  color: var(--color-light)
+  color: var(--color-light);
 }
 
 section > h2 {
-  color: var(--color-primary);
+  text-align: center;
+  background: var(--color-primary);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: var(--color-white);
   margin-bottom: 3rem;
 }
 
@@ -102,23 +106,19 @@ a:active {
 .btn {
   width: max-content;
   display: inline-block;
-  color: var(--color-primary);
+  color: var(--color-white);
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
   cursor: pointer;
   border: 1px solid var(--color-primary);
   transition: var(--transition);
+  background: var(--color-primary);
 }
 
 .btn:hover {
-  background: var(--color-white);
-  color: var(--color-bg);
+  background: linear-gradient(to left, #007BFF, #FF7F50);
+  color: var(--color-white);
   border-color: transparent;
-}
-
-.btn-primary {
-  background: var(--color-primary);
-  color: var(--color-bg);
 }
 
 img {
