@@ -39,6 +39,7 @@
     .navbar {
         padding: 1rem;
         height: 6vh;
+        justify-content: center;
     }
     
     .navbar-menu {
@@ -60,5 +61,13 @@
     .navbar-text {
         font-size: 1rem;
         padding-left: 0.3rem;
+    }
+}
+
+/* Media Queries (Tablets) */
+
+@media screen and (min-width: 551px) and (max-width: 1250px) {
+    .navbar {
+        justify-content: center;
     }
 }
