@@ -1,6 +1,6 @@
 # Portfolio Website
 
-## Version 1.2
+## Version 2.0  
 
 ## Description
 -This is a rehaul of my first portfolio website    
