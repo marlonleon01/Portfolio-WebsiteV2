@@ -1,9 +1,6 @@
 import "./Navbar.css"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import {faHouse} from "@fortawesome/free-solid-svg-icons"
-import {faUser} from "@fortawesome/free-solid-svg-icons"
-import {faBook} from "@fortawesome/free-solid-svg-icons"
-import {faAddressBook} from "@fortawesome/free-solid-svg-icons"
+import {faHouse, faUser, faBook, faAddressBook} from "@fortawesome/free-solid-svg-icons"
 
 export function Navbar() {
     return (
