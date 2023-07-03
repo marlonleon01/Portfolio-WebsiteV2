@@ -1,8 +1,15 @@
 import "./About.css"
 import GraduationStanding from "../../imgs/Graduation Standing.webp"
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import {faMedal} from "@fortawesome/free-solid-svg-icons"
-import {faFolderClosed} from "@fortawesome/free-solid-svg-icons"
+import HTML from "../../imgs/HTML-Icon.webp"
+import Node from "../../imgs/Node.js-Icon.webp"
+import TypeScript from "../../imgs/TypeScript-Icon.webp"
+import React from "../../imgs/React-Icon.webp"
+import Next from "../../imgs/Next.js-Icon.webp"
+import MongoDB from "../../imgs/MongoDB-Icon.webp"
+import JavaScript from "../../imgs/JavaScript-Icon.webp"
+import Git from "../../imgs/Git-Icon.webp"
+import Express from "../../imgs/Express-Icon.webp"
+import CSS from "../../imgs/CSS-Icon.webp"
 
 
 export function About() {
@@ -11,53 +18,80 @@ export function About() {
             <h5>A Little</h5>
             <h2>About me</h2>
             <div className="container about-container">
+                
                 <div className="about-me">
-                    {/* Add image of myself */}
                     <div className= "about-img">
                         <img src={GraduationStanding} alt="Graduation Image"></img>
                     </div>
                 </div>
-                <div className="about-content">
-                    <div className="about-cards">
-                        <article className="about-card">
-                            <FontAwesomeIcon icon={faMedal} className="about-icon"></FontAwesomeIcon>
-                            <h5>Experience</h5>
-                            <small>8 Months</small>
-                        </article>
-                        <article className="about-card">
-                            <FontAwesomeIcon icon={faMedal} className="about-icon"></FontAwesomeIcon>
-                            <h5>Specilizations</h5>
-                            <small>
-                                <ul>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>Javascript</li>
-                                    <li>React.js</li>
-                                    <li>Node.js</li>
-                                    <li>Express.js</li>
-                                    <li>JSON</li>
-                                    <li>Git/Github</li>
-                                </ul>
-                            </small>
-                        </article>
-                        <article className="about-card">
-                            <FontAwesomeIcon icon={faFolderClosed} className="about-icon"></FontAwesomeIcon>
-                            <h5>Projects</h5>
-                            <small>40+ Projects</small>
-                        </article>
-                    </div>
+                
                 <p>
-                I am an aspiring front-end web developer. I started learning through
-                the freeCodeCamp curriculum, where I received the Responsive
-                Web Design Certification and Javascript Algorithms and Data
-                Structures Certification. I am also learning through Scrimba's
-                Frontend Developer path. I have experience specializing in
-                web development, UI/UX design, HTML, CSS, JavaScript, and React.
-                I write my code to be efficient so that my web pages/apps have
-                great accessibility, performance, and appeal to users. I love working 
-                in a team environment and enjoy constantly testing myself to learn something new.
+                    As a passionate developer, I have embarked on a journey to become a
+                    versatile full-stack developer. With a strong foundation in front-end 
+                    development, I have expanded my skillset to encompass the world of 
+                    back-end technologies. I am growing my understanding of Node.js, Express.js, 
+                    and am on a path to becoming a well-rounded full-stack developer. I have 
+                    used my online resources to learn, including the freeCodeCamps curriculum, 
+                    where I obtained two certifications, Scrimba's Front-end Developer Path, 
+                    and popular Udemy courses for learning Node.js. With a specialization in 
+                    web development, UI/UX design, HTML, CSS, JavaScript, and React, I bring a 
+                    comprehensive skill set. I strive for code efficiency, implementation of 
+                    accessibility standards, optimized performance, and user appeal. I love 
+                    collaborating with others, and I constantly seek new challenges to help me 
+                    learn and grow while pushing the boundaries of my knowledge. 
                 </p>
-                <a href="#contact" className="btn btn-primary">Contact</a>
+
+                <div className="skills-div">
+                    <div className="skills-container1">
+                        <div className="individual-skill">
+                            <img src={HTML}></img>
+                            <p>HTML</p>
+                        </div>
+                        <div className="individual-skill">
+                            <img src={Express}></img>
+                            <p>EXPRESS.JS</p>
+                        </div>
+                        <div className="individual-skill">
+                            <img src={TypeScript}></img>
+                            <p>TYPESCRIPT</p>
+                        </div>
+                    </div>
+                    <div className="skills-container2">
+                        <div className="individual-skill">
+                            <img src={JavaScript}></img>
+                            <p>JAVASCRIPT</p>
+                        </div>
+                        <div className="individual-skill">
+                            <img src={React}></img>
+                            <p>REACT</p>
+                        </div>
+                        <div className="individual-skill">
+                            <img src={Node}></img>
+                            <p>NODE.JS</p>
+                        </div>
+                        <div className="individual-skill">
+                            <img src={Git}></img>
+                            <p>GIT</p>
+                        </div>
+                    </div>
+                    <div className="skills-container3">
+                        <div className="individual-skill">
+                            <img src={CSS}></img>
+                            <p>CSS</p>
+                        </div>
+                        <div className="individual-skill">
+                            <img src={MongoDB}></img>
+                            <p>MONGODB</p>
+                        </div>
+                        <div className="individual-skill">
+                            <img src={Next}></img>
+                            <p>NEXT.JS</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="contact-button-div">
+                    <a href="#contact" className="btn btn-primary">Contact</a>
                 </div>
             </div>
         </section>
