@@ -6,7 +6,7 @@
 }
 
 #about {
-    padding: 8rem 0 20rem 0
+    padding: 8rem 0 20rem 0;
 }
 
 #about > h2 {
@@ -53,6 +53,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
     gap: 5rem;
     grid-column: 1 / span 2;
 }
@@ -66,24 +67,35 @@
     padding: 1rem;
     border: 2px solid;
     border-image: var(--color-primary) 1;
+    width: 8rem;
 }
 
 .individual-skill > img {
-    height: 8rem;
+    height: auto;
+    max-width: 100%;
 }
 
 .contact-button-div {
     grid-column: 1 / span 2;
 }
 
-/* Media Queries (Tablets) */
-
-@media screen and (min-width: 551px) and (max-width: 1250px) {
-    
-}
-
 /* Media Queries (Phones) */
 
 @media screen and (max-width: 550px) {
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skills-div {
+        gap: 1rem;
+    }
     
+    .individual-skill {
+        margin-bottom: 1rem;
+        padding: 1rem;
+        width: 7rem;
+    }
 }
