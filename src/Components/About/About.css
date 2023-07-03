@@ -49,8 +49,27 @@
     height: 100%;
 }
 
-.tech-languages-div {
+.skills-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
     grid-column: 1 / span 2;
+}
+
+.individual-skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 2px solid;
+    border-image: var(--color-primary) 1;
+}
+
+.individual-skill > img {
+    height: 8rem;
 }
 
 .contact-button-div {
