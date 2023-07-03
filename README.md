@@ -3,9 +3,9 @@
 ## Version 1.2
 
 ## Description
--I created this site to practice making entire websites all by myself   
--It was also so I can have a place to display all my projects and important content  
--It really allowed me to use everything I had learn without any outside help  
+-This is a rehaul of my first portfolio website    
+-I am redoing it because I was inspired by some designs of websites I've seen and wanted to update mine    
+-It allowed me to keep practice working with react.js and other tools and work on make my designs much nicer  
 
 ## Required Files
 -Git  
