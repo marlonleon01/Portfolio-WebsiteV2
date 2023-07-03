@@ -30,7 +30,7 @@ body::-webkit-scrollbar {
 
 :root {
   /* Possible main color rgb(5,10,24) */
-  --color-bg: #0C2D48;
+  --color-bg: #1a1a1a;
   --color-bg-variant: #0E4C92;
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
