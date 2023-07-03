@@ -8,7 +8,7 @@ import MayaAndMe from "../../imgs/Maya and Me.webp"
 
 export function Header() {
     return (
-        <header>
+        <header id="home">
             <div className="container header-container">
                 <h5>Hello I'm</h5>
                 <h1>Marlon Leon</h1>
