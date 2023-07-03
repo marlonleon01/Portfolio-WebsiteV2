@@ -78,43 +78,12 @@
 
 /* Media Queries (Tablets) */
 
-@media screen and (max-width: 1024px) {
-    #about {
-        padding: 2rem 0 0 0;
-    }
-
-    .about-container {
-        grid-template-columns: 1fr;
-        gap: 0;
-    }
-
-    .about-me {
-        width: 50%;
-        margin: 2rem auto 4rem;
-    }
-
-    .about-content > p {
-        margin: 1rem 0 1.5rem;
-    }
+@media screen and (min-width: 551px) and (max-width: 1250px) {
+    
 }
 
 /* Media Queries (Phones) */
 
 @media screen and (max-width: 550px) {
-    #about {
-        padding: 2rem 0 0 0;
-    }
     
-    .about-me {
-        width: 65%;
-        margin: 0 auto 3rem;
-    }
-
-    .about-content {
-        text-align: center;
-    }
-
-    .about-content > p {
-        margin: 1.5rem 0;
-    }
 }

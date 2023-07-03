@@ -60,7 +60,7 @@ textarea {
 }
 /* Media Queries (Tablets) */
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 551px) and (max-width: 1250px) {
    .contact-container {
     grid-template-columns: 1fr;
     gap: 2rem;
