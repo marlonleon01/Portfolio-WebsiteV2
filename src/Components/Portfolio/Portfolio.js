@@ -30,10 +30,10 @@ export function Portfolio() {
                                         </div>
                                         <div  className="project-btns">
                                             <a href={github} className="btn" target="_blank" rel="noopener noreferrer">
-                                                GITHUB
+                                                Github
                                             </a>
                                             <a href={live} className="btn" target="_blank" rel="noopener noreferrer">
-                                                LIVE VIEW
+                                                Live View
                                             </a>
                                         </div>
                                     </div>
@@ -49,10 +49,10 @@ export function Portfolio() {
                                         </div>
                                         <div  className="project-btns">
                                             <a href={github} className="btn" target="_blank" rel="noopener noreferrer">
-                                                GITHUB
+                                                Github
                                             </a>
                                             <a href={live} className="btn" target="_blank" rel="noopener noreferrer">
-                                                LIVE VIEW
+                                                Live View
                                             </a>
                                         </div>
                                     </div>                                    
