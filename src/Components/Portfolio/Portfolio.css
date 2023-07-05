@@ -123,6 +123,49 @@
   
   /* Media Queries (Phones) */
   
-  @media screen and (max-width: 550px) {
+@media screen and (max-width: 550px) {
+    .portfolio-container {
+        gap: 3rem;
+    }
+
+    .project-img {
+        background: var(--color-primary);
+        width: 100%;
+        aspect-ratio: 16/9;
+    }
+
+    .img-left {
+        padding: 1rem 2rem 1rem 0;
+    }
     
+    .img-right {
+        padding: 1rem 0 1rem 2rem;
+    }
+
+    .main-left {
+        margin-left: 1rem;
+    }
+    
+    .main-right {
+        margin-right: 1rem;
+    }
+
+    .project-text > h3 {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+    
+    .project-text > p {
+        font-size: 0.7rem;
+        color: var(--color-light)
+    }
+
+    .project-btns {
+        flex-direction: row;
+    }
+    
+    .project-btns > a {
+        font-size: 0.7rem;
+        padding: 0.5rem 0.75rem;
+    }
 }
