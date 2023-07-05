@@ -20,10 +20,10 @@ export function Portfolio() {
                         if (index % 2 === 0) {
                             return (
                                 <article key={id} className="projects-container">
-                                    <div className={`project-img left`}>
+                                    <div className={`project-img img-left`}>
                                         <img src={image} alt={title}></img>
                                     </div>
-                                    <div className="project-main-content">
+                                    <div className="project-main-content main-left">
                                         <div className="project-text">
                                             <h3>{title}</h3>
                                             <p>{description}</p>
@@ -42,7 +42,7 @@ export function Portfolio() {
                         } else {
                             return (
                                 <article key={id} className="projects-container">
-                                    <div className="project-main-content">
+                                    <div className="project-main-content main-right">
                                         <div className="project-text">
                                             <h3>{title}</h3>
                                             <p>{description}</p>
@@ -56,7 +56,7 @@ export function Portfolio() {
                                             </a>
                                         </div>
                                     </div>                                    
-                                    <div className={`project-img right`}>
+                                    <div className={`project-img img-right`}>
                                         <img src={image} alt={title}></img>
                                     </div>
                                 </article>
