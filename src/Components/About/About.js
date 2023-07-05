@@ -31,7 +31,7 @@ export function About() {
                     development, I have expanded my skillset to encompass the world of 
                     back-end technologies. I am growing my understanding of Node.js, Express.js, 
                     and am on a path to becoming a well-rounded full-stack developer. I have 
-                    used my online resources to learn, including the freeCodeCamps curriculum, 
+                    used many online resources to learn, including the freeCodeCamps curriculum, 
                     where I obtained two certifications, Scrimba's Front-end Developer Path, 
                     and popular Udemy courses for learning Node.js. With a specialization in 
                     web development, UI/UX design, HTML, CSS, JavaScript, and React, I bring a 
