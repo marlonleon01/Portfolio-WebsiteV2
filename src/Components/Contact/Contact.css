@@ -13,7 +13,6 @@
 .contact-option {
     background: var(--color-primary-variant);
     padding: 1.2rem;
-    border-radius: 1.2rem;
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
@@ -21,7 +20,7 @@
 
 .contact-option:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-image: var(--color-primary) 1;
 }
 
 .contact-icon {
@@ -48,9 +47,9 @@ form {
 input, textarea {
     width: 100%;
     padding: 1.5rem;
-    border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid var(--color-primary-variant);
+    border: 2px solid;
+    border-image: var(--color-primary) 1;
     resize: none;
     color: var(--color-white);
 }
@@ -62,8 +61,8 @@ textarea {
 
 @media screen and (min-width: 551px) and (max-width: 1250px) {
    .contact-container {
-    grid-template-columns: 1fr;
-    gap: 2rem;
+        grid-template-columns: 1fr;
+        gap: 2rem;
    }
 }
   
@@ -72,5 +71,7 @@ textarea {
   @media screen and (max-width: 550px) {
     .contact-container {
         width: var(--container-width-sm);
+        grid-template-columns: 1fr;
+        gap: 2rem;
     }
 }

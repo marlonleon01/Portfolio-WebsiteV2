@@ -31,7 +31,7 @@ body::-webkit-scrollbar {
 :root {
   --color-bg: #1a1a1a;
   --color-primary: linear-gradient(135deg, #007BFF, #FF7F50);
-  --color-primary-variant: #007BFF;
+  --color-primary-variant: #0066CC;
   --color-white: #fff;
   --color-light: rgba(255, 255, 255, 0.6);
 
