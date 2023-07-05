@@ -86,7 +86,7 @@ header {
 
 @media screen and (max-width: 550px) {
     header {
-        padding: 7rem 0 2rem 0;
+        padding: 7rem 0 0 0;
     }
 
     .img-container {
@@ -115,7 +115,7 @@ header {
 
 @media screen and (min-width: 551px) and (max-width: 1250px) {
     header {
-        padding: 9rem 0 15rem 0;
+        padding: 9rem 0 0 0;
     }
     
     .img-container {
