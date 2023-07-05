@@ -1,7 +1,7 @@
 .contact-container {
     display: grid;
-    grid-template-columns: 30% 58%;
-    gap: 12%;
+    grid-template-columns: 30% 60%;
+    gap: 10%;
 }
 
 .contact-options {
