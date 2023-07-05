@@ -43,47 +43,47 @@ export function About() {
                 <div className="skills-div">
                     <div className="skills-container1">
                         <div className="individual-skill">
-                            <img src={HTML}></img>
+                            <img src={HTML} alt="HTML Icon"></img>
                             <p>HTML</p>
                         </div>
                         <div className="individual-skill">
-                            <img src={Express}></img>
+                            <img src={Express} alt="Express Icon"></img>
                             <p>EXPRESS.JS</p>
                         </div>
                         <div className="individual-skill">
-                            <img src={TypeScript}></img>
+                            <img src={TypeScript} alt="TypeScript Icon"></img>
                             <p>TYPESCRIPT</p>
                         </div>
                     </div>
                     <div className="skills-container2">
                         <div className="individual-skill">
-                            <img src={JavaScript}></img>
+                            <img src={JavaScript} alt="JavaScript Icon"></img>
                             <p>JAVASCRIPT</p>
                         </div>
                         <div className="individual-skill">
-                            <img src={React}></img>
+                            <img src={React} alt="React Icon"></img>
                             <p>REACT</p>
                         </div>
                         <div className="individual-skill">
-                            <img src={Node}></img>
+                            <img src={Node} alt="Node.js Icon"></img>
                             <p>NODE.JS</p>
                         </div>
                         <div className="individual-skill">
-                            <img src={Git}></img>
+                            <img src={Git} alt="Git Icon"></img>
                             <p>GIT</p>
                         </div>
                     </div>
                     <div className="skills-container3">
                         <div className="individual-skill">
-                            <img src={CSS}></img>
+                            <img src={CSS} alt="CSS Icon"></img>
                             <p>CSS</p>
                         </div>
                         <div className="individual-skill">
-                            <img src={MongoDB}></img>
+                            <img src={MongoDB} alt="MongoDB Icon"></img>
                             <p>MONGODB</p>
                         </div>
                         <div className="individual-skill">
-                            <img src={Next}></img>
+                            <img src={Next} alt="Next.js Icon"></img>
                             <p>NEXT.JS</p>
                         </div>
                     </div>
