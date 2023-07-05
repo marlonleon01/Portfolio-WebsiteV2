@@ -9,18 +9,38 @@ export function Footer() {
     return (
         <footer>
             <div className="footer-icons">
-                <a href="https://www.facebook.com/marlon.leon.710" target="_blank" 
-                rel="noopener noreferrer" className="anchor-facebook">
+                <a 
+                    href="https://www.facebook.com/marlon.leon.710" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="anchor-facebook"
+                    aria-label="Visit my Facebook profile"
+                >
                     <FontAwesomeIcon icon={faSquareFacebook} alt="facebook icon"></FontAwesomeIcon>
                 </a>
-                <a href="https://www.instagram.com/marlon.z32/" target="_blank" 
-                rel="noopener noreferrer" className="anchor-instagram">
+                <a 
+                    href="https://www.instagram.com/marlon.z32/" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="anchor-instagram"
+                    aria-label="Visit my Instagram profile"
+                >
                     <FontAwesomeIcon icon={faInstagramSquare} alt="instagram icon"></FontAwesomeIcon>
                 </a>
-                <a href="https://www.linkedin.com/in/marlon-leon/" target="_blank" rel="noopener noreferrer">
+                <a 
+                    href="https://www.linkedin.com/in/marlon-leon/" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    aria-label="Visit my LinkedIn profile"
+                >
                     <FontAwesomeIcon icon={faLinkedin} alt="linkedin icon"></FontAwesomeIcon>
                 </a>
-                <a href="https://github.com/marlonleon01" target="_blank" rel="noopener noreferrer">
+                <a 
+                    href="https://github.com/marlonleon01" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    aria-label="Visit my GitHub profile"
+                >
                     <FontAwesomeIcon icon={faGithubSquare} alt="github icon"></FontAwesomeIcon>
                 </a>
             </div> 
