@@ -15,7 +15,6 @@ import CSS from "../../imgs/CSS-Icon.webp"
 export function About() {
     return (
         <section id="about">
-            <h5>A Little</h5>
             <h2>About me</h2>
             <div className="container about-container">
                 

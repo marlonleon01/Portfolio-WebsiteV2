@@ -25,27 +25,13 @@ const dataPortfolio = [
     },
     {
         id: 3,
-        image: BlackJack,
-        title: "BlackJack App",
-        github: "https://github.com/marlonleon01/BlackJack-App",
-        live: "https://blackjack.marlonleon.net/"
-    },
-    {
-        id: 4,
         image: Calculator,
         title: "Calculator",
         github: "https://github.com/marlonleon01/Calculator",
         live: "https://calculator.marlonleon.net/"
     },
     {
-        id: 5,
-        image: MemeGenerator,
-        title: "Meme Generator",
-        github: "https://github.com/marlonleon01/Meme-Generator",
-        live: "https://meme-generator.marlonleon.net/"
-    },
-    {
-        id: 6,
+        id: 4,
         image: ColorSchemeGenerator,
         title: "Color Scheme Generator",
         github: "https://github.com/marlonleon01/Color-Scheme-Generator",
@@ -56,7 +42,6 @@ const dataPortfolio = [
 export function Portfolio() {
     return (
         <section id="portfolio">
-            <h5>My Recent Work</h5>
             <h2>Portfolio</h2>
             <div className="more-projects-container">
             <a href="https://github.com/marlonleon01" target="_blank" rel="noopener noreferrer" className="more-projects-section">
