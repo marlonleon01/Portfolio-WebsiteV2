@@ -39,7 +39,7 @@
 .portfolio-container {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 5rem;
 }
 
 .projects-container {
@@ -57,21 +57,72 @@
 
 .project-img {
     background: var(--color-primary);
+    width: 90%;
+    aspect-ratio: 16/9;
+}
+
+.project-img img {
+    height: 100%;
 }
 
 .img-left {
-    padding: 4rem 12rem 4rem 0;
+    padding: 3rem 4rem 3rem 0;
 }
 
 .img-right {
-    padding: 4rem 0 4rem 12rem;
+    padding: 3rem 0 3rem 4rem;
+}
+
+.project-main-content {
+    text-align: center;
 }
 
 .main-left {
-    margin-left: -2rem;
+    margin-left: 5rem;
 }
 
 .main-right {
-    margin-right: -6rem;
-    z-index: 1;
+    margin-right: 5rem;
+}
+
+.project-text {
+    text-align: left;
+}
+
+.project-text > h3 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+.project-text > p {
+    font-size: 1.1rem;
+    color: var(--color-light)
+}
+
+.project-btns {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* Media Queries (Tablets) */
+
+@media screen and (min-width: 551px) and (max-width: 1250px) {
+    .project-text > h3 {
+        font-size: 1.8rem;
+    }
+    
+    .project-text > p {
+        font-size: 1rem;
+    }
+    
+    .project-btns {
+        flex-direction: row;
+    }
+}
+  
+  /* Media Queries (Phones) */
+  
+  @media screen and (max-width: 550px) {
+    
 }
