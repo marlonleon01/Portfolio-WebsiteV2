@@ -12,6 +12,8 @@
     margin: 0;
 }
 
+/* Title/Heading */
+
 .more-projects-container {
     display: flex;
     align-items: center;
@@ -30,4 +32,46 @@
 
 .more-projects-text {
     margin-left: 0.3rem;
+}
+
+/* Projects Section */
+
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.projects-container {
+    display: flex;
+    align-items: center;
+}
+
+.projects-container:nth-child(odd) {
+    align-self: flex-start;
+}
+
+.projects-container:nth-child(even) {
+    align-self: flex-end;
+}
+
+.project-img {
+    background: var(--color-primary);
+}
+
+.img-left {
+    padding: 4rem 12rem 4rem 0;
+}
+
+.img-right {
+    padding: 4rem 0 4rem 12rem;
+}
+
+.main-left {
+    margin-left: -2rem;
+}
+
+.main-right {
+    margin-right: -6rem;
+    z-index: 1;
 }
