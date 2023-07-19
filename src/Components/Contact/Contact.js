@@ -12,7 +12,7 @@ export function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_ljlfdwc', 'template_of7n527', form.current, '339EaFdXiVuPblrpy')
+        emailjs.sendForm('service_4up1c24', 'template_of7n527', form.current, 'RUZw9HtF8GRysTzd9')
 
         e.target.reset();
       };
