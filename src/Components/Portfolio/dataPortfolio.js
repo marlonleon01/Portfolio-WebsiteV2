@@ -9,7 +9,7 @@ const dataPortfolio = [
         image: TenziesGame,
         title: "Tenzies Game",
         github: "https://github.com/marlonleon01/Tenzies-Game",
-        live: "https://tenzies-game.marlonleon.net/",
+        live: "add new",
         description: `Tenzies game made with React.js that stores data 
                         with state and functions with useEffect.`
     },
@@ -18,7 +18,7 @@ const dataPortfolio = [
         image: MovieWatchlist,
         title: "Movie Watchlist",
         github: "https://github.com/marlonleon01/Movie-Watchlist",
-        live: "https://movie-watchlist.marlonleon.net/",
+        live: "add new",
         description: `Movie watchlist app made with vanilla JavaScript 
                         and OMDb API that uses localstorage to store the data.`
     },
@@ -27,7 +27,7 @@ const dataPortfolio = [
         image: Calculator,
         title: "Calculator",
         github: "https://github.com/marlonleon01/Calculator",
-        live: "https://calculator.marlonleon.net/",
+        live: "add new",
         description: `A calculator that use JavaScript classes, built in functions,
                         and data selectors.`
 
@@ -37,7 +37,7 @@ const dataPortfolio = [
         image: ColorSchemeGenerator,
         title: "Color Scheme Generator",
         github: "https://github.com/marlonleon01/Color-Scheme-Generator",
-        live: "https://colorscheme-generator.marlonleon.net/",
+        live: "add new",
         description: `A color scheme generator that connects and fetches data from and API.`
     },
 ]
