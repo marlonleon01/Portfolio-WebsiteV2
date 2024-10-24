@@ -2,13 +2,13 @@ import "./About.css"
 import GraduationStanding from "../../imgs/Graduation Standing.webp"
 import HTML from "../../imgs/HTML-Icon.webp"
 import Node from "../../imgs/Node.js-Icon.webp"
-import TypeScript from "../../imgs/TypeScript-Icon.webp"
+import Java from "../../imgs/Java-Icon.webp"
 import React from "../../imgs/React-Icon.webp"
-import Next from "../../imgs/Next.js-Icon.webp"
+import SQL from "../../imgs/SQL-Icon.webp"
 import MongoDB from "../../imgs/MongoDB-Icon.webp"
 import JavaScript from "../../imgs/JavaScript-Icon.webp"
 import Git from "../../imgs/Git-Icon.webp"
-import Express from "../../imgs/Express-Icon.webp"
+import Python from "../../imgs/Python-Icon.webp"
 import CSS from "../../imgs/CSS-Icon.webp"
 
 
@@ -48,12 +48,12 @@ export function About() {
                             <p>HTML</p>
                         </div>
                         <div className="individual-skill">
-                            <img src={Express} alt="Express Icon"></img>
-                            <p>EXPRESS.JS</p>
+                            <img src={Python} alt="Python Icon"></img>
+                            <p>PYTHON</p>
                         </div>
                         <div className="individual-skill">
-                            <img src={TypeScript} alt="TypeScript Icon"></img>
-                            <p>TYPESCRIPT</p>
+                            <img src={Java} alt="Java Icon"></img>
+                            <p>JAVA</p>
                         </div>
                     </div>
                     <div className="skills-container2">
@@ -84,8 +84,8 @@ export function About() {
                             <p>MONGODB</p>
                         </div>
                         <div className="individual-skill">
-                            <img src={Next} alt="Next.js Icon"></img>
-                            <p>NEXT.JS</p>
+                            <img src={SQL} alt="SQL Icon"></img>
+                            <p>SQL</p>
                         </div>
                     </div>
                 </div>
