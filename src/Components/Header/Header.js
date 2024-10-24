@@ -38,17 +38,17 @@ export function Header() {
                 <div className="img-container">
                     <div className="img-group">
                         <div className="big-img1 img" ref={divRef1}>
-                            <img src={MayaAndMe} alt="Maya and Me Image"></img>
+                            <img src={MayaAndMe} alt="Maya and Me"></img>
                         </div>
                         <div className="big-img2 img" ref={divRef2}>
-                            <img src={Computer} alt="Image of computer"></img>
+                            <img src={Computer} alt="Computer"></img>
                         </div>
                         <div className="big-img3 img" ref={divRef3}>
-                            <img src={MiamiShirt} alt="Image of Me"></img>
+                            <img src={MiamiShirt} alt="Marlon"></img>
                         </div>
                         <div className="big-img4 img" ref={divRef4}>
                             {/* Main Image */}
-                            <img src={GraduationSitting} alt="Graduation Image" rel="preload" as="image"></img>
+                            <img src={GraduationSitting} alt="Graduation" rel="preload" as="image"></img>
                         </div>
                     </div>
                 </div>

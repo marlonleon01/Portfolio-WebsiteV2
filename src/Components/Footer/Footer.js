@@ -44,7 +44,7 @@ export function Footer() {
                     <FontAwesomeIcon icon={faGithubSquare} alt="github icon"></FontAwesomeIcon>
                 </a>
             </div> 
-            <a href="#" className="footer-name">Marlon Leon ©2023</a>
+            <a href="#/" className="footer-name">Marlon Leon ©2024</a>
         </footer>
     )
 }

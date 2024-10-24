@@ -20,24 +20,25 @@ export function About() {
                 
                 <div className="about-me">
                     <div className= "about-img">
-                        <img src={GraduationStanding} alt="Graduation Image"></img>
+                        <img src={GraduationStanding} alt="Graduation"></img>
                     </div>
                 </div>
                 
                 <p>
-                    As a passionate developer, I have embarked on a journey to become a
-                    versatile full-stack developer. With a strong foundation in front-end 
-                    development, I have expanded my skillset to encompass the world of 
-                    back-end technologies. I am growing my understanding of Node.js, Express.js, 
-                    and am on a path to becoming a well-rounded full-stack developer. I have 
-                    used many online resources to learn, including the freeCodeCamps curriculum, 
-                    where I obtained two certifications, Scrimba's Front-end Developer Path, 
-                    and popular Udemy courses for learning Node.js. With a specialization in 
-                    web development, UI/UX design, HTML, CSS, JavaScript, and React, I bring a 
-                    comprehensive skill set. I strive for code efficiency, implementation of 
-                    accessibility standards, optimized performance, and user appeal. I love 
-                    collaborating with others, and I constantly seek new challenges to help me 
-                    learn and grow while pushing the boundaries of my knowledge. 
+                    As a passionate developer, I am dedicated to becoming a 
+                    well-rounded software engineer with a strong foundation in both 
+                    front-end and back-end development. With proficiency in languages 
+                    like Python, Java, JavaScript, and frameworks like React, I build 
+                    efficient, user-friendly web applications. My skillset spans across 
+                    UI/UX design using Figma and Adobe Suite, ensuring that my 
+                    applications are not only functional but also visually appealing. 
+                    I have a solid understanding of database technologies like SQL and 
+                    MongoDB, allowing me to handle data management effectively. I 
+                    continuously seek new challenges to push the boundaries of my 
+                    knowledge and grow as a developer, always focusing on 
+                    code efficiency, accessibility standards, and optimized performance. 
+                    Collaboration and problem-solving drive my work, and I am committed 
+                    to learning and evolving with every project.
                 </p>
 
                 <div className="skills-div">
