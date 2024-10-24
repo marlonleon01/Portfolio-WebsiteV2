@@ -34,7 +34,7 @@ export function Header() {
             <div className="container header-container">
                 <h5>Hello I'm</h5>
                 <h1>Marlon Leon</h1>
-                <h5 className="text-light">Full-Stack Developer</h5>
+                <h5 className="text-light">Software Developer</h5>
                 <div className="img-container">
                     <div className="img-group">
                         <div className="big-img1 img" ref={divRef1}>
